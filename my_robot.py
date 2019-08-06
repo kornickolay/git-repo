@@ -29,7 +29,7 @@ def del_dupl (dir_name):
             os.remove(fullname)
         if not os.path.exists(fullname):
             count += 1
-            print ('Файл', fullname, 'был успешно удалён')
+            print ('Файл', fullname, 'был успешно удалён!')
     return count
 
 # Будем выполнять запрос до тех пор, пока пользователь не нажмет n или N
